@@ -11,9 +11,50 @@ body {
   background: #fff;
   font-size: 100%;
 }
-.top-header {
-
+.title-site a {
+  float:left;
+  color: #fff;
+  font-size: 35px;
 }
+.top-header {
+  background: rgba(
+    73,
+    84,
+    91,
+    0.84
+  ); /*couleur du header en rgba pour l'opacité*/
+  padding: 3% 0;
+}
+/*css container de la nav header*/
+.container-nav {
+  float: right;
+}
+.container-nav li {
+  display: inline-block;
+}
+.container-nav li a {
+  display: block;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.container-nav li a:hover,
+.container-nav li.active a {
+  background: #fff;
+  color: #4bcaff;
+}
+/*navigation du header*/
+.nav-header {
+  list-style: none;
+}
+.nav-header li a:hover {
+  background: #fff;
+  color: #4bcaff;
+  text-decoration: none;
+}
+/*background du header*/
 .content-header {
   width: 100%;
   height: 800px;
@@ -102,22 +143,21 @@ body {
   outline: none;
   margin-top: 5%;
   text-transform: uppercase;
-
 }
 /*style du survol de la souris sur le boutton message*/
 .contact-form input[type="submit"] :hover {
   background: #fff;
   color: #4bcaff;
 }
-.content{
-  margin:10px 0;
+.content {
+  margin: 10px 0;
 }
 .input-user {
   margin-bottom: 50px;
   color: #fff;
 }
 .contact-form {
-  margin:0 15px;
+  margin: 0 15px;
   color: #fff;
 }
 .adress p {
@@ -126,48 +166,48 @@ body {
   color: #fff;
 }
 /*icon du bas pour remonter au début de la page*/
-#up{
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	width:40px;
-	height:40px;
+#up {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
 }
 /*css pour la barre de navigation du footer*/
-.nav-footer{
-  float:left;
-	list-style:none;
-	color:#536169;
-  padding:0;
+.nav-footer {
+  float: left;
+  list-style: none;
+  color: #536169;
+  padding: 0;
 }
 .nav-footer li {
-  display:inline-block;
-  margin:0;
+  display: inline-block;
+  margin: 0;
 }
 .nav-footer li a {
-  color:#536169;
-  font-size:0.85em;
-	font-weight:500;
-	text-decoration:none;
+  color: #536169;
+  font-size: 0.85em;
+  font-weight: 500;
+  text-decoration: none;
 }
-.nav-footer li a:hover{
-	color:#fff;
+.nav-footer li a:hover {
+  color: #fff;
 }
-.footer{
-	background:#353f47;
-	padding:6%;
+.footer {
+  background: #353f47;
+  padding: 6%;
 }
 /*css pour le copyright*/
-.copyright{
-	float:right;
+.copyright {
+  float: right;
 }
-.copyright p{
-	color:#536169;
-	font-size:0.85em;
-	text-decoration:none;
+.copyright p {
+  color: #536169;
+  font-size: 0.85em;
+  text-decoration: none;
 }
-.copyright p a{
-	color:#fff;
+.copyright p a {
+  color: #fff;
 }
 
 /*responsive */
