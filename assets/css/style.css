@@ -90,14 +90,99 @@ body {
   background-position: center;
   background-size: 100% 100%;
 }
-/*css elements contact*/
-.title-contact {
-  color: #fff;
-  font-size: 2em;
-  font-family: "caviar_dreamsregular";
-  text-transform: uppercase;
-  margin: 0 15px;
+/*arrière plan de la partie follower*/
+.follow{
+  width: 100%;
+	background: url(../images/follow.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-size: 100% 100%;
+  padding:6% 0;
+  color:#fff;
 }
+/*titre de la partie follower*/
+.title-follow{
+  color:#fff;
+	font-size:2em;
+	font-family: 'caviar_dreamsregular';
+	margin:0 15px;
+}
+.follow-title{
+  position: relative;
+  margin-bottom: 5%;
+}
+/*soulignement du titre follower*/
+.follow-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  bottom: -10px;
+  margin: 0 15px;
+  
+}
+.follower li{
+  background: none;
+	display: inline-block;
+  margin-right: 20px;
+  list-style:none;
+}
+/*affichage de l'icon 1 contenu dans une image de 4 icon*/
+li.li-tweeter a {
+	background: url(../images/sprite.png)no-repeat -315px -6px;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+	width: 70px;
+	height: 70px;
+	display: block;
+  border: 2px solid #FFF;
+}
+li.li-tweeter a:hover {
+	background: url(../images/sprite.png)no-repeat -315px -6px #4BCAFF;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+	border: 2px solid #00B3FD;
+}
+
+/*affichage de l'icon 2 contenu dans une image de 4 icon*/
+li.li-google a{
+  background: url(../images/sprite.png)no-repeat -376px -6px;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+	width: 70px;
+	height: 70px;
+	display: block;
+	border: 2px solid #FFF;
+}
+li.li-google a:hover {
+	background: url(../images/sprite.png)no-repeat -376px -6px #4BCAFF;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+	border: 2px solid #00B3FD;
+}
+/*affichage de l'icon 3 contenu dans une image de 4 icon*/
+li.li-bal a {
+	background: url(../images/sprite.png)no-repeat -429px -4px;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+	width: 70px;
+	height: 70px;
+	display: block;
+	border: 2px solid #FFF;
+}
+li.li-bal a:hover {
+	background: url(../images/sprite.png)no-repeat -429px -4px #4BCAFF;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+	border: 2px solid #00B3FD;
+}
+/*affichage de l'icon 4 contenu dans une image de 4 icon*/
+li.li-coffe a {
+	background: url(../images/sprite.png)no-repeat 8px -76px;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+	width: 70px;
+	height: 70px;
+	display: block;
+	border: 2px solid #FFF;
+}
+li.li-coffe a:hover {
+	background: url(../images/sprite.png)no-repeat 8px -76px #4BCAFF;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+	border: 2px solid #00B3FD;
+}
+
+
+
+
+
+/*css elements contact*/
+
 .contact {
   width: 100%;
   background: url(../images/footer.jpg) no-repeat;
