@@ -22,6 +22,7 @@ body {
   background-position: center;
   background-size: 100% 100%;
 }
+
 /*elements contact*/
 
 .title-contact {
@@ -34,9 +35,6 @@ body {
 .contact {
   width: 100%;
   background: url(../images/footer.jpg) no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   background-size: 100% 100%;
@@ -69,7 +67,6 @@ body {
   font-size: 0.85em;
   border: 2px solid #fff;
   background: none;
-  outline: none;
   display: block;
   font-family: "Roboto", sans-serif;
 }
@@ -80,12 +77,7 @@ body {
   color: #fff;
   margin-bottom: 8%;
 }
-.adress p {
-  /*couleur, taille et hauteur de ligne*/
-  font-size: 0.85em;
-  line-height: 2em;
-  color: #fff;
-}
+
 .text-area {
   /*style de la zone saisie de text pour message*/
   padding: 20px;
@@ -97,8 +89,6 @@ body {
   color: #fff;
   font-size: 0.85em;
   font-family: "Roboto", sans-serif;
-  -webkit-appearance: none;
-  resize: none;
   height: 200px;
 }
 .contact-form input[type="submit"] {
@@ -115,24 +105,44 @@ body {
   outline: none;
   margin-top: 5%;
   text-transform: uppercase;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
+
 }
 .contact-form input[type="submit"] :hover {
   /*style du survol de la souris sur le boutton message*/
   background: #fff;
   color: #4bcaff;
 }
-
-.input-user {
-  margin-bottom: 8px;
-}
-/*
 .content{
-  margin:20px 0;
- 	display:none;
-  border:1px solid #930031;
-}*/
+  margin:10px 0;
+
+}
+.input-user {
+  margin-bottom: 50px;
+  color: #fff;
+}
+.contact-form {
+  margin:0 15px;
+  color: #fff;
+}
+.adress p {
+  font-size: 0.85em;
+  line-height: 2em;
+  color: #fff;
+}
+/*responsive */
+@media (max-width: 1366px) {
+}
+@media (max-width: 1280px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 640px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
