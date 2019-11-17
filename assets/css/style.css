@@ -12,7 +12,7 @@ body {
   font-size: 100%;
 }
 .top-header {
-  border: 1px solid #930031;
+
 }
 .content-header {
   width: 100%;
@@ -22,9 +22,7 @@ body {
   background-position: center;
   background-size: 100% 100%;
 }
-
-/*elements contact*/
-
+/*css elements contact*/
 .title-contact {
   color: #fff;
   font-size: 2em;
@@ -59,8 +57,8 @@ body {
   bottom: -10px;
   margin: 0 15px;
 }
+/*style de la zone saisie des input pour la zonne contact*/
 .listinput input[type="text"] {
-  /*style de la zone saisie des input pour la zonne contact*/
   padding: 20px;
   width: 85%;
   color: #fff;
@@ -70,16 +68,15 @@ body {
   display: block;
   font-family: "Roboto", sans-serif;
 }
+/*couleur, taille et hauteur de ligne*/
 .paragraph-right-1 {
-  /*couleur, taille et hauteur de ligne*/
   line-height: 1.8em;
   font-size: 0.85em;
   color: #fff;
   margin-bottom: 8%;
 }
-
+/*style de la zone saisie de text pour message*/
 .text-area {
-  /*style de la zone saisie de text pour message*/
   padding: 20px;
   display: block;
   width: 100%;
@@ -91,8 +88,8 @@ body {
   font-family: "Roboto", sans-serif;
   height: 200px;
 }
+/*style du boutton envoyer message*/
 .contact-form input[type="submit"] {
-  /*style du boutton envoyer message*/
   display: inline-block;
   color: #fff;
   background: #4bcaff;
@@ -107,14 +104,13 @@ body {
   text-transform: uppercase;
 
 }
+/*style du survol de la souris sur le boutton message*/
 .contact-form input[type="submit"] :hover {
-  /*style du survol de la souris sur le boutton message*/
   background: #fff;
   color: #4bcaff;
 }
 .content{
   margin:10px 0;
-
 }
 .input-user {
   margin-bottom: 50px;
@@ -129,6 +125,51 @@ body {
   line-height: 2em;
   color: #fff;
 }
+/*icon du bas pour remonter au début de la page*/
+#up{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width:40px;
+	height:40px;
+}
+/*css pour la barre de navigation du footer*/
+.nav-footer{
+  float:left;
+	list-style:none;
+	color:#536169;
+  padding:0;
+}
+.nav-footer li {
+  display:inline-block;
+  margin:0;
+}
+.nav-footer li a {
+  color:#536169;
+  font-size:0.85em;
+	font-weight:500;
+	text-decoration:none;
+}
+.nav-footer li a:hover{
+	color:#fff;
+}
+.footer{
+	background:#353f47;
+	padding:6%;
+}
+/*css pour le copyright*/
+.copyright{
+	float:right;
+}
+.copyright p{
+	color:#536169;
+	font-size:0.85em;
+	text-decoration:none;
+}
+.copyright p a{
+	color:#fff;
+}
+
 /*responsive */
 @media (max-width: 1366px) {
 }
