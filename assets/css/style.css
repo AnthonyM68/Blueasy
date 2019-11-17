@@ -13,34 +13,34 @@ body {
 }
 /*title du site*/
 .title-site a {
-  float:left;
+  float: left;
   color: #fff;
   font-size: 35px;
 }
 /*container des titres*/
-.bottom-header{
-  text-align:center;
-  padding:12% 0;
+.bottom-header {
+  text-align: center;
+  padding: 12% 0;
 }
 /*titre 1*/
 .title-header {
-  font-family: 'caviar_dreamsregular';
-	color: #FFF;
-	font-size:2.7em;
-	background: #4B565D;
-	padding: 10px;
-	width:50%;
-	margin: 0 auto 2% auto;
+  font-family: "caviar_dreamsregular";
+  color: #fff;
+  font-size: 2.7em;
+  background: #4b565d;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto 2% auto;
 }
 /*titre 2*/
-.title-header2{
-  font-family: 'caviar_dreamsregular';
-	color: #FFF;
-	font-size:2.7em;
-	background: #4B565D;
-	padding: 10px;
-	width:70%;
-	margin: 0 auto;
+.title-header2 {
+  font-family: "caviar_dreamsregular";
+  color: #fff;
+  font-size: 2.7em;
+  background: #4b565d;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .top-header {
@@ -91,23 +91,29 @@ body {
   background-size: 100% 100%;
 }
 /*arrière plan de la partie follower*/
-.follow{
+.follow {
   width: 100%;
-	background: url(../images/follow.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-size: 100% 100%;
-  padding:6% 0;
-  color:#fff;
+  background: url(../images/follow.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 6% 0;
+  color: #fff;
+}
+
+iframe.video {
+  width:565px;
+  height: 320px;
+  overflow:hidden;
 }
 /*titre de la partie follower*/
-.title-follow{
-  color:#fff;
-	font-size:2em;
-	font-family: 'caviar_dreamsregular';
-	margin:0 15px;
+.title-follow {
+  color: #fff;
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
+  margin: 0 15px;
 }
-.follow-title{
+.follow-title {
   position: relative;
   margin-bottom: 5%;
 }
@@ -119,67 +125,62 @@ body {
   position: absolute;
   bottom: -10px;
   margin: 0 15px;
-  
 }
-.follower li{
+.follower li {
   background: none;
-	display: inline-block;
+  display: inline-block;
   margin-right: 20px;
-  list-style:none;
+  list-style: none;
 }
 /*affichage de l'icon 1 contenu dans une image de 4 icon*/
 li.li-tweeter a {
-	background: url(../images/sprite.png)no-repeat -315px -6px;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
-	width: 70px;
-	height: 70px;
-	display: block;
-  border: 2px solid #FFF;
+  background: url(../images/sprite.png) no-repeat -315px -6px; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+  width: 70px;
+  height: 70px;
+  display: block;
+  border: 2px solid #fff;
 }
 li.li-tweeter a:hover {
-	background: url(../images/sprite.png)no-repeat -315px -6px #4BCAFF;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
-	border: 2px solid #00B3FD;
+  background: url(../images/sprite.png) no-repeat -315px -6px #4bcaff; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+  border: 2px solid #00b3fd;
 }
 
 /*affichage de l'icon 2 contenu dans une image de 4 icon*/
-li.li-google a{
-  background: url(../images/sprite.png)no-repeat -376px -6px;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
-	width: 70px;
-	height: 70px;
-	display: block;
-	border: 2px solid #FFF;
+li.li-google a {
+  background: url(../images/sprite.png) no-repeat -376px -6px; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+  width: 70px;
+  height: 70px;
+  display: block;
+  border: 2px solid #fff;
 }
 li.li-google a:hover {
-	background: url(../images/sprite.png)no-repeat -376px -6px #4BCAFF;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
-	border: 2px solid #00B3FD;
+  background: url(../images/sprite.png) no-repeat -376px -6px #4bcaff; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+  border: 2px solid #00b3fd;
 }
 /*affichage de l'icon 3 contenu dans une image de 4 icon*/
 li.li-bal a {
-	background: url(../images/sprite.png)no-repeat -429px -4px;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
-	width: 70px;
-	height: 70px;
-	display: block;
-	border: 2px solid #FFF;
+  background: url(../images/sprite.png) no-repeat -429px -4px; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+  width: 70px;
+  height: 70px;
+  display: block;
+  border: 2px solid #fff;
 }
 li.li-bal a:hover {
-	background: url(../images/sprite.png)no-repeat -429px -4px #4BCAFF;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
-	border: 2px solid #00B3FD;
+  background: url(../images/sprite.png) no-repeat -429px -4px #4bcaff; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+  border: 2px solid #00b3fd;
 }
 /*affichage de l'icon 4 contenu dans une image de 4 icon*/
 li.li-coffe a {
-	background: url(../images/sprite.png)no-repeat 8px -76px;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
-	width: 70px;
-	height: 70px;
-	display: block;
-	border: 2px solid #FFF;
+  background: url(../images/sprite.png) no-repeat 8px -76px; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+  width: 70px;
+  height: 70px;
+  display: block;
+  border: 2px solid #fff;
 }
 li.li-coffe a:hover {
-	background: url(../images/sprite.png)no-repeat 8px -76px #4BCAFF;/*déplacement dans l'image principale pour atteindre l'image souhaiter*/
-	border: 2px solid #00B3FD;
+  background: url(../images/sprite.png) no-repeat 8px -76px #4bcaff; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
+  border: 2px solid #00b3fd;
 }
-
-
-
-
 
 /*css elements contact*/
 
