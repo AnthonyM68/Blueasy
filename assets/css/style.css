@@ -62,13 +62,11 @@ body {
 .container-nav li a {
   display: block;
   font-size: 15px;
-  text-transform: uppercase;
   padding: 10px 20px;
   color: #fff;
   font-weight: 600;
 }
-.container-nav li a:hover,
-.container-nav li.active a {
+.container-nav li a:hover {
   background: #fff;
   color: #4bcaff;
 }
@@ -90,22 +88,114 @@ body {
   background-position: center;
   background-size: 100% 100%;
 }
-/*arrière plan de la partie follower*/
-.follow {
-  width: 100%;
-  background: url(../images/follow.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-size: 100% 100%;
+/*partie portfolio*/
+.background-portfolio{
+  border:1px solid #009325;
+}
+.p-top {
+  margin-bottom:5%;
+  
+  
+}
+.p-title {
+  margin-top:0;
+  padding-top:0;
+  float:left;
+  height:45px;
+}
+.portfolio-title{
+  color: #333;
+	font-size: 2em;
+	font-family: 'caviar_dreamsregular';
+}
+.title-portfolio{
+  position: relative;
+  
+}
+
+.portfolio-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid #666;
+  position: absolute;
+  bottom: -10px;
+  margin: 0 15px;
+  margin-left: 0;
+}
+#nav-portfolio {
+  margin:20px;
+
+  float: right;
+  list-style: none;
+}
+#nav-portfolio li a{
+		padding: 4px 15px;
+		text-decoration: none;
+		color: #666;
+		cursor: pointer;
+		font-size: 16px;
+		font-weight:500;
+}
+
+#nav-portfolio li {
+  display:inline-block
+}
+#nav-portfolio li a:hover{
+  text-decoration:none;
+}
+
+#nav-portfolio li a.active {
+  border:2px solid #00B3FD;
+  color:#00B3FD;
+}
+
+
+/*arrière plan de la partie just-section*/
+.just-section {
+  background: #515f67;
   padding: 6% 0;
   color: #fff;
 }
-
-iframe.video {
-  width:565px;
-  height: 320px;
-  overflow:hidden;
+.title-section-just {
+  color: #fff;
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
+  margin: 0 15px;
+  margin-left: 0;
 }
+/*positionnement du titre*/
+.section-just-title {
+  position: relative;
+  margin-bottom: 5%;
+}
+/*soulignement du titre just-section*/
+.section-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  bottom: -10px;
+  margin: 0 15px;
+  margin-left: 0;
+}
+/*button de la partie -just-section*/
+.button a {
+  color: #29353c;
+  font-size: 0.85em;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 35px 9px 35px;
+  display: inline-block;
+  outline: none;
+  transition: all 0.3s;
+  border: 2px solid #29353c;
+}
+.button a:hover {
+  background: #fff;
+  border: 2px solid #fff;
+  color: #00b3fd;
+}
+
 /*titre de la partie follower*/
 .title-follow {
   color: #fff;
@@ -126,6 +216,27 @@ iframe.video {
   bottom: -10px;
   margin: 0 15px;
 }
+
+.follow {
+  width: 100%;
+  background: url(../images/follow.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 6% 0;
+  color: #fff;
+}
+.video {
+  width: 565px;
+  height: 320px;
+  overflow: hidden;
+}
+.paragraph-section {
+  margin: 15px 0;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
 .follower li {
   background: none;
   display: inline-block;
