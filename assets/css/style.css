@@ -88,6 +88,56 @@ body {
   background-position: center;
   background-size: 100% 100%;
 }
+*
+
+.content-services {
+  background-color: #4bcaff;
+  margin-bottom: 80px;
+  
+}
+
+.Services-title {
+  margin-bottom: 52px;
+  margin-top: 82px;
+  font-size: 25px;
+  background-color: #4bcaff;
+  color: white;
+  
+}
+
+.col-md-3 {
+  color: white;
+  margin-bottom: 80px;
+  
+}
+
+.services-title{
+  color: white;
+	font-size: 2em;
+	font-family: 'caviar_dreamsregular';
+}
+
+.title-services{
+  position: relative;
+  
+}
+
+.services-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid white;
+  position: absolute;
+  bottom: 45px;
+  margin: 0 15px;
+  margin-left: 0;
+}
+
+h3 {
+ 
+  margin-bottom: 21px;
+
+}
+
 /*partie portfolio*/
 .background-portfolio{
   border:1px solid #009325;
@@ -122,6 +172,7 @@ body {
   margin: 0 15px;
   margin-left: 0;
 }
+
 .clear{
   clear: both;
 }
