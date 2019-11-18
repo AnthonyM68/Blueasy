@@ -118,6 +118,8 @@ body {
 .p-title {
   margin-top: 0;
   padding-top: 0;
+  margin-left:10px;
+  margin-bottom: 100px;
   float: left;
   height: 45px;
 }
@@ -137,8 +139,8 @@ body {
   display: block;
   border-bottom: 2px solid #666;
   position: absolute;
-  bottom: -10px;
-  margin: 0 15px;
+  bottom: -5px;
+  margin: 100 15px;
   margin-left: 0;
 }
 
@@ -218,7 +220,7 @@ body {
 .twitter {
   color: white;
   background: #4bcaff;
-  font-size: 22px;
+  font-size: 2em;
   font-family: "caviar dreams regular";
 }
 #icon {
