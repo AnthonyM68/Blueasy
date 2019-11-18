@@ -101,9 +101,54 @@ body {
   background-position: center;
   background-size: 100% 100%;
 }
+*
 
 .content-services {
   background-color: #4bcaff;
+  margin-bottom: 80px;
+  
+}
+
+.Services-title {
+  margin-bottom: 52px;
+  margin-top: 82px;
+  font-size: 25px;
+  background-color: #4bcaff;
+  color: white;
+  
+}
+
+.col-md-3 {
+  color: white;
+  margin-bottom: 80px;
+  
+}
+
+.services-title{
+  color: white;
+	font-size: 2em;
+	font-family: 'caviar_dreamsregular';
+}
+
+.title-services{
+  position: relative;
+  
+}
+
+.services-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid white;
+  position: absolute;
+  bottom: 45px;
+  margin: 0 15px;
+  margin-left: 0;
+}
+
+h3 {
+ 
+  margin-bottom: 21px;
+
 }
 
 /*partie portfolio*/
@@ -144,7 +189,11 @@ body {
   margin-left: 0;
 }
 
+<<<<<<< HEAD
+.clear{
+=======
 .clear {
+>>>>>>> e1d11f8db7303b59b0f2493e154e787f83c4525d
   clear: both;
 }
 
@@ -635,6 +684,5 @@ li.li-coffe a:hover {
 @media (max-width: 320px) {
 }
 /*isa*/
-
 
 
