@@ -1,27 +1,32 @@
 * {
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: "caviar_dreamsregular";
   src: url(../fonts/CaviarDreams-webfont.ttf) format("truetype");
 }
+
 html,
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
   font-size: 100%;
 }
+
 /*title du site*/
 .title-site a {
   float: left;
   color: #fff;
   font-size: 35px;
 }
+
 /*container des titres*/
 .bottom-header {
   text-align: center;
   padding: 12% 0;
 }
+
 /*titre 1*/
 .title-header {
   font-family: "caviar_dreamsregular";
@@ -32,6 +37,7 @@ body {
   width: 50%;
   margin: 0 auto 2% auto;
 }
+
 /*titre 2*/
 .title-header2 {
   font-family: "caviar_dreamsregular";
@@ -52,13 +58,16 @@ body {
   ); /*couleur du header en rgba pour l'opacité*/
   padding: 3% 0;
 }
+
 /*css container de la nav header*/
 .container-nav {
   float: right;
 }
+
 .container-nav li {
   display: inline-block;
 }
+
 .container-nav li a {
   display: block;
   font-size: 15px;
@@ -66,19 +75,23 @@ body {
   color: #fff;
   font-weight: 600;
 }
+
 .container-nav li a:hover {
   background: #fff;
   color: #4bcaff;
 }
+
 /*navigation du header*/
 .nav-header {
   list-style: none;
 }
+
 .nav-header li a:hover {
   background: #fff;
   color: #4bcaff;
   text-decoration: none;
 }
+
 /*background du header*/
 .content-header {
   width: 100%;
@@ -139,28 +152,29 @@ h3 {
 }
 
 /*partie portfolio*/
-.background-portfolio{
-  border:1px solid #009325;
+.background-portfolio {
+  border: 1px solid #009325;
 }
+
 .p-top {
-  margin-bottom:5%;
-  
-  
+  margin-bottom: 5%;
 }
+
 .p-title {
-  margin-top:0;
-  padding-top:0;
-  float:left;
-  height:45px;
+  margin-top: 0;
+  padding-top: 0;
+  float: left;
+  height: 45px;
 }
-.portfolio-title{
+
+.portfolio-title {
   color: #333;
-	font-size: 2em;
-	font-family: 'caviar_dreamsregular';
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
 }
-.title-portfolio{
+
+.title-portfolio {
   position: relative;
-  
 }
 
 .portfolio-btl {
@@ -173,66 +187,126 @@ h3 {
   margin-left: 0;
 }
 
+<<<<<<< HEAD
 .clear{
+=======
+.clear {
+>>>>>>> e1d11f8db7303b59b0f2493e154e787f83c4525d
   clear: both;
 }
+
+.container1 {
+  width: 1170px;
+  margin: auto;
+  margin-bottom: 81px;
+}
+
 .portfolio img {
-  max-width:100%;
-  border:1px solid #009325;
+  max-width: 100%;
+  border: 10px solid #009325;
   display: block;
 }
-.container-image{
-  overflow:hidden;
-  position: relative !important;
-  display:inline-block;
 
-border:1px solid #009325;
+.img-portfolio {
+  display: inline-block;
+  margin: 10px 10px;
+  width: 262px;
+  height: 237px;
 }
-/*
-#portfolio  {
 
-  width: 23%;
- 
-  float:left;
-  overflow:hidden;
-  margin: 0 2% 2% 0;
-}	*/
+.container-image {
+  overflow: hidden;
+  display: inline-block;
+  width: 262px;
+  height: 237px;
+  border: 2px solid #009325;
+  padding: 15px 15px;
+}
 
+#portfolio {
+  width: 1170px;
+  overflow: hidden;
+  display: flex;
+}
+
+#portfolio2 {
+  width: 1170px;
+  overflow: hidden;
+  display: flex;
+}
 
 #nav-portfolio {
-  margin:20px;
-
+  margin: 20px;
   float: right;
   list-style: none;
 }
-#nav-portfolio li a{
-		padding: 4px 15px;
-		text-decoration: none;
-		color: #666;
-		cursor: pointer;
-		font-size: 16px;
-		font-weight:500;
+
+#nav-portfolio li a {
+  padding: 4px 15px;
+  text-decoration: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 #nav-portfolio li {
-  display:inline-block
+  display: inline-block;
 }
-#nav-portfolio li a:hover{
-  text-decoration:none;
+
+#nav-portfolio li a:hover {
+  text-decoration: none;
 }
 
 #nav-portfolio li a.active {
-  border:2px solid #00B3FD;
-  color:#00B3FD;
+  border: 2px solid #00b3fd;
+  color: #00b3fd;
 }
 
-
+/*partie twitter*/
+.twitter {
+  color: white;
+  background: #4bcaff;
+  font-size: 22px;
+  font-family: "caviar dreams regular";
+}
+#icon {
+  float: right;
+  margin-top: 20px;
+}
+.paragraphe-twitter {
+  font-size: 72px;
+  font-family: "bitter bold" 28px;
+}
+.twitter-title {
+  color: #fff;
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
+  text-transform: uppercase;
+  margin: 5 15px;
+}
+.title-twitter {
+  position: relative;
+  margin-bottom: 5%;
+  float: left;
+}
+.twitter-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  bottom: -60px;
+  left: -80px;
+  margin: 5 15px;
+  margin-left: 0;
+}
 /*arrière plan de la partie just-section*/
 .just-section {
   background: #515f67;
   padding: 6% 0;
   color: #fff;
 }
+
 .title-section-just {
   color: #fff;
   font-size: 2em;
@@ -240,11 +314,13 @@ border:1px solid #009325;
   margin: 0 15px;
   margin-left: 0;
 }
+
 /*positionnement du titre*/
 .section-just-title {
   position: relative;
   margin-bottom: 5%;
 }
+
 /*soulignement du titre just-section*/
 .section-btl {
   width: 50px;
@@ -255,6 +331,7 @@ border:1px solid #009325;
   margin: 0 15px;
   margin-left: 0;
 }
+
 /*button de la partie -just-section*/
 .button a {
   color: #29353c;
@@ -267,6 +344,7 @@ border:1px solid #009325;
   transition: all 0.3s;
   border: 2px solid #29353c;
 }
+
 .button a:hover {
   background: #fff;
   border: 2px solid #fff;
@@ -280,10 +358,12 @@ border:1px solid #009325;
   font-family: "caviar_dreamsregular";
   margin: 0 15px;
 }
+
 .follow-title {
   position: relative;
   margin-bottom: 5%;
 }
+
 /*soulignement du titre follower*/
 .follow-btl {
   width: 50px;
@@ -293,7 +373,6 @@ border:1px solid #009325;
   bottom: -10px;
   margin: 0 15px;
 }
-
 .follow {
   width: 100%;
   background: url(../images/follow.jpg) no-repeat;
@@ -313,13 +392,13 @@ border:1px solid #009325;
   font-size: 14px;
   line-height: 1.5em;
 }
-
 .follower li {
   background: none;
   display: inline-block;
   margin-right: 20px;
   list-style: none;
 }
+
 /*affichage de l'icon 1 contenu dans une image de 4 icon*/
 li.li-tweeter a {
   background: url(../images/sprite.png) no-repeat -315px -6px; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
@@ -328,6 +407,7 @@ li.li-tweeter a {
   display: block;
   border: 2px solid #fff;
 }
+
 li.li-tweeter a:hover {
   background: url(../images/sprite.png) no-repeat -315px -6px #4bcaff; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
   border: 2px solid #00b3fd;
@@ -341,10 +421,12 @@ li.li-google a {
   display: block;
   border: 2px solid #fff;
 }
+
 li.li-google a:hover {
   background: url(../images/sprite.png) no-repeat -376px -6px #4bcaff; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
   border: 2px solid #00b3fd;
 }
+
 /*affichage de l'icon 3 contenu dans une image de 4 icon*/
 li.li-bal a {
   background: url(../images/sprite.png) no-repeat -429px -4px; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
@@ -353,10 +435,12 @@ li.li-bal a {
   display: block;
   border: 2px solid #fff;
 }
+
 li.li-bal a:hover {
   background: url(../images/sprite.png) no-repeat -429px -4px #4bcaff; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
   border: 2px solid #00b3fd;
 }
+
 /*affichage de l'icon 4 contenu dans une image de 4 icon*/
 li.li-coffe a {
   background: url(../images/sprite.png) no-repeat 8px -76px; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
@@ -365,13 +449,53 @@ li.li-coffe a {
   display: block;
   border: 2px solid #fff;
 }
+
 li.li-coffe a:hover {
   background: url(../images/sprite.png) no-repeat 8px -76px #4bcaff; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
   border: 2px solid #00b3fd;
 }
-
+/*partie testimonials*/
+.testimonials-title {
+  color: #fff;
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
+  text-transform: uppercase;
+  margin: 5 15px;
+}
+.title-testimonials {
+  position: relative;
+  margin-bottom: 5%;
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.quote {
+  float: right;
+  margin-top: 20px;
+}
+.testimonials-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid#000;
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  margin-left: 0;
+}
+.testimonials {
+  color: #515f67;
+  font-size: 72px;
+  font-family: "bitter bold";
+}
+.pragraphe-testimonials {
+  font-family: "bitter bold" 72px;
+  color: #515f67;
+}
+#walter {
+  color: #4bcaff;
+}
 /*css elements contact*/
-
 .contact {
   width: 100%;
   background: url(../images/footer.jpg) no-repeat;
@@ -380,6 +504,7 @@ li.li-coffe a:hover {
   background-size: 100% 100%;
   padding: 6% 0;
 }
+
 .title-contact {
   color: #fff;
   font-size: 2em;
@@ -387,10 +512,12 @@ li.li-coffe a:hover {
   text-transform: uppercase;
   margin: 0 15px;
 }
+
 .contact-title {
   position: relative;
   margin-bottom: 5%;
 }
+
 /*soulignement du titre contact*/
 .contact-btl {
   width: 50px;
@@ -400,6 +527,7 @@ li.li-coffe a:hover {
   bottom: -10px;
   margin: 0 15px;
 }
+
 /*style de la zone saisie des input pour la zonne contact*/
 .listinput input[type="text"] {
   padding: 20px;
@@ -411,6 +539,7 @@ li.li-coffe a:hover {
   display: block;
   font-family: "Roboto", sans-serif;
 }
+
 /*couleur, taille et hauteur de ligne*/
 .paragraph-right-1 {
   line-height: 1.8em;
@@ -418,6 +547,7 @@ li.li-coffe a:hover {
   color: #fff;
   margin-bottom: 8%;
 }
+
 /*style de la zone saisie de text pour message*/
 .text-area {
   padding: 20px;
@@ -431,6 +561,7 @@ li.li-coffe a:hover {
   font-family: "Roboto", sans-serif;
   height: 200px;
 }
+
 /*style du boutton envoyer message*/
 .contact-form input[type="submit"] {
   display: inline-block;
@@ -446,27 +577,33 @@ li.li-coffe a:hover {
   margin-top: 5%;
   text-transform: uppercase;
 }
+
 /*style du survol de la souris sur le boutton message*/
 .contact-form input[type="submit"] :hover {
   background: #fff;
   color: #4bcaff;
 }
+
 .content {
   margin: 10px 0;
 }
+
 .input-user {
   margin-bottom: 50px;
   color: #fff;
 }
+
 .contact-form {
   margin: 0 15px;
   color: #fff;
 }
+
 .adress p {
   font-size: 0.85em;
   line-height: 2em;
   color: #fff;
 }
+
 /*icon du bas pour remonter au début de la page*/
 #up {
   position: fixed;
@@ -475,6 +612,7 @@ li.li-coffe a:hover {
   width: 40px;
   height: 40px;
 }
+
 /*css pour la barre de navigation du footer*/
 .nav-footer {
   float: left;
@@ -482,32 +620,39 @@ li.li-coffe a:hover {
   color: #536169;
   padding: 0;
 }
+
 .nav-footer li {
   display: inline-block;
   margin: 0;
 }
+
 .nav-footer li a {
   color: #536169;
   font-size: 0.85em;
   font-weight: 500;
   text-decoration: none;
 }
+
 .nav-footer li a:hover {
   color: #fff;
 }
+
 .footer {
   background: #353f47;
   padding: 6%;
 }
+
 /*css pour le copyright*/
 .copyright {
   float: right;
 }
+
 .copyright p {
   color: #536169;
   font-size: 0.85em;
   text-decoration: none;
 }
+
 .copyright p a {
   color: #fff;
 }
@@ -515,18 +660,27 @@ li.li-coffe a:hover {
 /*responsive */
 @media (max-width: 1366px) {
 }
+
 @media (max-width: 1280px) {
 }
+
 @media (max-width: 1024px) {
 }
+
 @media (max-width: 800px) {
 }
+
 @media (max-width: 768px) {
 }
+
 @media (max-width: 640px) {
 }
+
 @media (max-width: 480px) {
 }
+
 @media (max-width: 320px) {
 }
+/*isa*/
+
 
