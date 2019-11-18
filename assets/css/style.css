@@ -102,35 +102,34 @@ body {
   background-size: 100% 100%;
 }
 
-.content-services{
+.content-services {
   background-color: #4bcaff;
 }
 
 /*partie portfolio*/
-.background-portfolio{
-  border:1px solid #009325;
+.background-portfolio {
+  border: 1px solid #009325;
 }
 
 .p-top {
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
 .p-title {
-  margin-top:0;
-  padding-top:0;
-  float:left;
-  height:45px;
+  margin-top: 0;
+  padding-top: 0;
+  float: left;
+  height: 45px;
 }
 
-.portfolio-title{
+.portfolio-title {
   color: #333;
-	font-size: 2em;
-	font-family: 'caviar_dreamsregular';
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
 }
 
-.title-portfolio{
+.title-portfolio {
   position: relative;
-  
 }
 
 .portfolio-btl {
@@ -143,19 +142,19 @@ body {
   margin-left: 0;
 }
 
-.clear{
+.clear {
   clear: both;
 }
 
 .container1 {
-    width : 1170px;
-    margin: auto;
-    margin-bottom: 81px;
+  width: 1170px;
+  margin: auto;
+  margin-bottom: 81px;
 }
 
 .portfolio img {
-  max-width:100%;
-  border:10px solid #009325;
+  max-width: 100%;
+  border: 10px solid #009325;
   display: block;
 }
 
@@ -166,7 +165,7 @@ body {
   height: 237px;
 }
 
-.container-image{
+.container-image {
   overflow: hidden;
   display: inline-block;
   width: 262px;
@@ -175,46 +174,83 @@ body {
   padding: 15px 15px;
 }
 
-#portfolio  {
+#portfolio {
   width: 1170px;
-  overflow:hidden;
+  overflow: hidden;
   display: flex;
-}	
+}
 
-#portfolio2  {
+#portfolio2 {
   width: 1170px;
-  overflow:hidden;
+  overflow: hidden;
   display: flex;
-}	
+}
 
 #nav-portfolio {
-  margin:20px;
+  margin: 20px;
   float: right;
   list-style: none;
 }
 
-#nav-portfolio li a{
-		padding: 4px 15px;
-		text-decoration: none;
-		color: #666;
-		cursor: pointer;
-		font-size: 16px;
-		font-weight:500;
+#nav-portfolio li a {
+  padding: 4px 15px;
+  text-decoration: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 #nav-portfolio li {
-  display:inline-block
+  display: inline-block;
 }
 
-#nav-portfolio li a:hover{
-  text-decoration:none;
+#nav-portfolio li a:hover {
+  text-decoration: none;
 }
 
 #nav-portfolio li a.active {
-  border:2px solid #00B3FD;
-  color:#00B3FD;
+  border: 2px solid #00b3fd;
+  color: #00b3fd;
 }
 
+/*partie twitter*/
+.twitter {
+  color: white;
+  background: #4bcaff;
+  font-size: 22px;
+  font-family: "caviar dreams regular";
+}
+#icon {
+  float: right;
+  margin-top: 20px;
+}
+.paragraphe-twitter {
+  font-size: 72px;
+  font-family: "bitter bold" 28px;
+}
+.twitter-title {
+  color: #fff;
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
+  text-transform: uppercase;
+  margin: 5 15px;
+}
+.title-twitter {
+  position: relative;
+  margin-bottom: 5%;
+  float: left;
+}
+.twitter-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  bottom: -60px;
+  left: -80px;
+  margin: 5 15px;
+  margin-left: 0;
+}
 /*arrière plan de la partie just-section*/
 .just-section {
   background: #515f67;
@@ -288,7 +324,6 @@ body {
   bottom: -10px;
   margin: 0 15px;
 }
-
 .follow {
   width: 100%;
   background: url(../images/follow.jpg) no-repeat;
@@ -298,19 +333,16 @@ body {
   padding: 6% 0;
   color: #fff;
 }
-
 .video {
   width: 565px;
   height: 320px;
   overflow: hidden;
 }
-
 .paragraph-section {
   margin: 15px 0;
   font-size: 14px;
   line-height: 1.5em;
 }
-
 .follower li {
   background: none;
   display: inline-block;
@@ -373,9 +405,48 @@ li.li-coffe a:hover {
   background: url(../images/sprite.png) no-repeat 8px -76px #4bcaff; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
   border: 2px solid #00b3fd;
 }
-
+/*partie testimonials*/
+.testimonials-title {
+  color: #fff;
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
+  text-transform: uppercase;
+  margin: 5 15px;
+}
+.title-testimonials {
+  position: relative;
+  margin-bottom: 5%;
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.quote {
+  float: right;
+  margin-top: 20px;
+}
+.testimonials-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid#000;
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  margin-left: 0;
+}
+.testimonials {
+  color: #515f67;
+  font-size: 72px;
+  font-family: "bitter bold";
+}
+.pragraphe-testimonials {
+  font-family: "bitter bold" 72px;
+  color: #515f67;
+}
+#walter {
+  color: #4bcaff;
+}
 /*css elements contact*/
-
 .contact {
   width: 100%;
   background: url(../images/footer.jpg) no-repeat;
@@ -562,103 +633,6 @@ li.li-coffe a:hover {
 @media (max-width: 320px) {
 }
 /*isa*/
-.twitter
-{
-    color:white;
-    background:#4bcaff;
-    font-size: 22px;
-    font-family:"caviar dreams regular"; 
-    
-}
-.follow-btl {
-  width: 50px;
-  display: block;
-  border-bottom: 2px solid #fff;
-  position: absolute;
-  bottom: -10px;
-  margin: 0 15px;
-}
 
-#icon{
 
-float: right;
-  margin-top: 20px;
-}
 
-.paragraphe-twitter       
-{
-    font-size:72px;
-    font-family:"bitter bold" 28px;
-
-    
-}
-.twitter-title {
-  color: #fff;
-  font-size: 2em;
-  font-family: "caviar_dreamsregular";
-  text-transform: uppercase;
-  margin: 5 15px;
-}
-.title-twitter {
-  position: relative;
-  margin-bottom: 5%;
-  float: left;
-}
-.twitter-btl {
-  width: 50px;
-  display: block;
-  border-bottom: 2px solid #fff;
-  position: absolute;
-  bottom: -60px;
-  left:-80px;
-  margin: 5 15px;
-  margin-left: 0;
-}
-
-.testimonials-title {
-  color: #fff;
-  font-size: 2em;
-  font-family: "caviar_dreamsregular";
-  text-transform: uppercase;
-  margin: 5 15px;
-  
-
-}
-.title-testimonials {
-  position: relative;
-  margin-bottom: 5%;
-  float:left;
-}
-.clear{clear:both}
-.quote{
-  float:right;
-  margin-top:20px;
-}
-.testimonials-btl {
-  width: 50px;
-  display: block;
-  border-bottom: 2px solid#000;
-  position: absolute;
-  bottom: -10px;
-  left: 0px;
-  margin-left: 0;
-
-}
-.testimonials
-{
-    color:#515f67;
-    font-size: 72px;
-    font-family:"bitter bold"; 
-    
-}
-
-.pragraphe-testimonials{
-
-  font-family:"bitter bold" 72px;
-  color:#515f67 ;
-
-  
-}
-#walter{
-  color:#4bcaff;
-}
