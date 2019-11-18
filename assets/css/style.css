@@ -478,3 +478,104 @@ li.li-coffe a:hover {
 }
 @media (max-width: 320px) {
 }
+/*isa*/
+.twitter
+{
+    color:white;
+    background:#4bcaff;
+    font-size: 22px;
+    font-family:"caviar dreams regular"; 
+    
+}
+.follow-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  bottom: -10px;
+  margin: 0 15px;
+}
+
+#icon{
+
+float: right;
+  margin-top: 20px;
+}
+
+.paragraphe-twitter       
+{
+    font-size:72px;
+    font-family:"bitter bold" 28px;
+
+    
+}
+.twitter-title {
+  color: #fff;
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
+  text-transform: uppercase;
+  margin: 5 15px;
+}
+.title-twitter {
+  position: relative;
+  margin-bottom: 5%;
+  float: left;
+}
+.twitter-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  bottom: -60px;
+  left:-80px;
+  margin: 5 15px;
+  margin-left: 0;
+}
+
+.testimonials-title {
+  color: #fff;
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
+  text-transform: uppercase;
+  margin: 5 15px;
+  
+
+}
+.title-testimonials {
+  position: relative;
+  margin-bottom: 5%;
+  float:left;
+}
+.clear{clear:both}
+.quote{
+  float:right;
+  margin-top:20px;
+}
+.testimonials-btl {
+  width: 50px;
+  display: block;
+  border-bottom: 2px solid#000;
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  margin-left: 0;
+
+}
+.testimonials
+{
+    color:#515f67;
+    font-size: 72px;
+    font-family:"bitter bold"; 
+    
+}
+
+.pragraphe-testimonials{
+
+  font-family:"bitter bold" 72px;
+  color:#515f67 ;
+
+  
+}
+#walter{
+  color:#4bcaff;
+}
