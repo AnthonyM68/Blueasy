@@ -7,18 +7,25 @@
   src: url(../fonts/CaviarDreams-webfont.ttf) format("truetype");
 }
 
+.clear {
+  clear: both;
+}
+
 html,
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
   font-size: 100%;
 }
-
 /*title du site*/
 .title-site a {
   float: left;
   color: #fff;
   font-size: 35px;
+}
+.title-site a:hover{
+  text-decoration: none;
+  color: #fff;
 }
 
 /*container des titres*/
@@ -26,7 +33,6 @@ body {
   text-align: center;
   padding: 12% 0;
 }
-
 /*titre 1*/
 .title-header {
   font-family: "caviar_dreamsregular";
@@ -37,7 +43,6 @@ body {
   width: 50%;
   margin: 0 auto 2% auto;
 }
-
 /*titre 2*/
 .title-header2 {
   font-family: "caviar_dreamsregular";
@@ -48,7 +53,6 @@ body {
   width: 70%;
   margin: 0 auto;
 }
-
 .top-header {
   background: rgba(
     73,
@@ -63,11 +67,9 @@ body {
 .container-nav {
   float: right;
 }
-
 .container-nav li {
   display: inline-block;
 }
-
 .container-nav li a {
   display: block;
   font-size: 15px;
@@ -75,23 +77,19 @@ body {
   color: #fff;
   font-weight: 600;
 }
-
 .container-nav li a:hover {
   background: #fff;
   color: #4bcaff;
 }
-
 /*navigation du header*/
 .nav-header {
   list-style: none;
 }
-
 .nav-header li a:hover {
   background: #fff;
   color: #4bcaff;
   text-decoration: none;
 }
-
 /*background du header*/
 .content-header {
   width: 100%;
@@ -101,81 +99,73 @@ body {
   background-position: center;
   background-size: 100% 100%;
 }
-*
 
+/*partie service*/
+.services-title{
+  margin-left:10px;
+  color: #fff;
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
+}
 .content-services {
   background-color: #4bcaff;
   margin-bottom: 80px;
-  
 }
-
 .Services-title {
   margin-bottom: 52px;
   margin-top: 82px;
   font-size: 25px;
   background-color: #4bcaff;
   color: white;
-  
 }
-
 .col-md-3 {
   color: white;
   margin-bottom: 80px;
-  
 }
-
-.services-title{
+.size-grid{
+  margin-top:50px;
+}
+.services-title {
   color: white;
-	font-size: 2em;
-	font-family: 'caviar_dreamsregular';
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
 }
-
-.title-services{
+.title-services {
   position: relative;
-  
 }
-
 .services-btl {
   width: 50px;
   display: block;
   border-bottom: 2px solid white;
   position: absolute;
-  bottom: 45px;
+  bottom: -10px;
   margin: 0 15px;
-  margin-left: 0;
-}
-
-h3 {
- 
-  margin-bottom: 21px;
 
 }
-
 /*partie portfolio*/
-.background-portfolio {
-  border: 1px solid #009325;
-}
 
-.p-top {
-  margin-bottom: 5%;
+.center-elements {
+  text-align: center;
+  margin-bottom:80px;
 }
-
 .p-title {
   margin-top: 0;
   padding-top: 0;
-  margin-left:10px;
-  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-bottom: 90px;
   float: left;
   height: 45px;
 }
 
 .portfolio-title {
+  margin-left:10px;
   color: #333;
   font-size: 2em;
   font-family: "caviar_dreamsregular";
 }
 
 .title-portfolio {
+  margin-left:10px;
   position: relative;
 }
 
@@ -189,50 +179,20 @@ h3 {
   margin-left: 0;
 }
 
-.clear{
+.clear {
   clear: both;
 }
-
-.container1 {
-  width: 1170px;
-  margin: auto;
-  margin-bottom: 81px;
-}
-
-.portfolio img {
+#colone {
   max-width: 100%;
-  border: 10px solid #009325;
   display: block;
 }
 
 .img-portfolio {
   display: inline-block;
-  margin: 10px 10px;
-  width: 262px;
+  margin: 15px 0;
+  width: 250px;
   height: 237px;
 }
-
-.container-image {
-  overflow: hidden;
-  display: inline-block;
-  width: 262px;
-  height: 237px;
-  border: 2px solid #009325;
-  padding: 15px 15px;
-}
-
-#portfolio {
-  width: 1170px;
-  overflow: hidden;
-  display: flex;
-}
-
-#portfolio2 {
-  width: 1170px;
-  overflow: hidden;
-  display: flex;
-}
-
 #nav-portfolio {
   margin: 20px;
   float: right;
@@ -243,7 +203,6 @@ h3 {
   padding: 4px 15px;
   text-decoration: none;
   color: #666;
-  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
 }
@@ -280,7 +239,6 @@ h3 {
   color: #fff;
   font-size: 2em;
   font-family: "caviar_dreamsregular";
-  text-transform: uppercase;
   margin: 5 15px;
 }
 .title-twitter {
@@ -380,7 +338,7 @@ h3 {
   padding: 6% 0;
   color: #fff;
 }
-.video {
+#video {
   width: 565px;
   height: 320px;
   overflow: hidden;
@@ -453,45 +411,43 @@ li.li-coffe a:hover {
   border: 2px solid #00b3fd;
 }
 /*partie testimonials*/
+.part-testimonials {
+  margin-bottom: 80px;
+}
 .testimonials-title {
   color: #fff;
   font-size: 2em;
   font-family: "caviar_dreamsregular";
-  text-transform: uppercase;
   margin: 5 15px;
 }
+.h3-testimonials {
+  color: #333;
+  font-size: 2em;
+  font-family: "caviar_dreamsregular";
+}
 .title-testimonials {
-  position: relative;
-  margin-bottom: 5%;
   float: left;
 }
-.clear {
-  clear: both;
-}
 .quote {
-  float: right;
   margin-top: 20px;
+  float: right;
 }
 .testimonials-btl {
   width: 50px;
   display: block;
   border-bottom: 2px solid#000;
-  position: absolute;
   bottom: -10px;
   left: 0px;
   margin-left: 0;
 }
-.testimonials {
-  color: #515f67;
-  font-size: 72px;
-  font-family: "bitter bold";
-}
-.pragraphe-testimonials {
-  font-family: "bitter bold" 72px;
-  color: #515f67;
+.paragraph-testimonials {
+  color: #555;
+  font-size: 1.5em;
+  margin: 3% 0;
 }
 #walter {
   color: #4bcaff;
+  font-size: 0.95em;
 }
 /*css elements contact*/
 .contact {
@@ -675,10 +631,72 @@ li.li-coffe a:hover {
 }
 
 @media (max-width: 480px) {
+  .title-header {
+    font-size: 1em;
+  }
+  /*titre 2*/
+  .title-header2 {
+    font-size: 1em;
+  }
+  /*style du boutton envoyer message*/
+  .contact-form input[type="submit"] {
+    padding: 20px 130px;
+  }
+  .list-nav-portfolio ul li a{
+    text-align:center;
+  }
+  #nav-portfolio li a {
+    padding: 4px 1px;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  #nav-portfolio li  {
+    position:relative;
+    left:-30px;
+  }
+  .center-elements{
+    position:relative;
+    left:-10px;
+  }
+  ul.follower{
+    text-align:center;
+    width: 80%;
+    padding:0 auto;
+    margin:20px;
+  }
+
 }
 
 @media (max-width: 320px) {
+  .title-header {
+    font-size: 1em;
+  }
+  /*titre 2*/
+  .title-header2 {
+    font-size: 1em;
+  }
+  /*style du boutton envoyer message*/
+  .contact-form input[type="submit"] {
+    padding: 20px 75px;
+  }
+ 
+  .list-nav-portfolio ul li a{
+    
+    text-align:center;
+
+  }
+  #nav-portfolio li a {
+    padding: 4px 1px;
+    font-size: 8px;
+    font-weight: 500;
+  }
+  #nav-portfolio li  {
+    position:relative;
+    left:-30px;
+  }
+  .center-elements{
+    position:relative;
+    left:-10px;
+  }
 }
 /*isa*/
-
-
