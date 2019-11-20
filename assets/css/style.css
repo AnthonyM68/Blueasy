@@ -6,105 +6,19 @@
   font-family: "caviar_dreamsregular";
   src: url(../fonts/CaviarDreams-webfont.ttf) format("truetype");
 }
-
 .clear {
   clear: both;
 }
-
 html,
 body {
-  font-family: "Roboto", sans-serif;
   background: #fff;
   font-size:100%;
-}
 
-/*background du header*/
-.content-header {
-  width: 100%;
-  height: 800px;
-  background: url(../images/banner.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-size: 100% 100%;
-}
-/*css container de la nav header*/
-nav{
-  background-color: #434e55 ;
-  height: 150px;
-  padding:40px 375px;  
-
-
-}
-li a{
-  text-decoration:none;
-  color: white;    
-}
-ul{
-  display:flex;
-  list-style:none;
-  justify-content:flex-end ;   
-}
-li{
-  margin:11px 19px;
-  font-family: "segoe UI bold "14px;
-}
-/*navigation du header*/
-
-.nav-header {
-  list-style: none;
-}
-
-#E{
-  color: #4bcaff;
-}
-/*couleur du header en rgba pour l'opacité*/
-.top-header {
-  background: rgba(
-    73,
-    84,
-    91,
-    0.84
-  ); 
-  padding: 3% 0;
-}
-/*title du site*/
-.title-site a {
-  float: left;
-  color: #fff;
-  font-size: 35px;
-}
-.title-site a:hover {
-  text-decoration: none;
-  color: #fff;
-}
-.bottom-header {
-  padding:12% 0;
-  text-align:center;
-}
-/*main header titre 1*/
-.title-header {
-  font-family: "caviar_dreamsregular";
-  color: #fff;
-  font-size: 2.7em;
-  background: #4b565d;
-  padding: 10px;
-  width: 50%;
-  margin: 0 auto 2% auto;
-}
-/*main header titre 2*/
-.title-header2 {
-  font-family: "caviar_dreamsregular";
-  color: #fff;
-  font-size: 2.7em;
-  background: #4b565d;
-  padding: 10px;
-  width: 70%;
-  margin: 0 auto;
 }
 /*container des titres et souignements*/
 
  /*services,who is john do,contact*/
-.default-title{
+ .default-title{
   color:#fff;
   font-size: 2em;
 	font-family: 'caviar_dreamsregular';
@@ -155,6 +69,86 @@ li{
 	position: absolute;
 	bottom:0px;
  }
+/*background du header*/
+.content-header {
+  width: 100%;
+  height: 800px;
+  background: url(../images/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+}
+/*background du top-header*/
+.top-header {
+  background: rgba(
+    73,
+    84,
+    91,
+    0.84
+  ); 
+  padding: 3% 0;
+}
+/*title du site*/
+.title-site a {
+  float: left;
+  color: #fff;
+  font-size: 35px;
+}
+.title-site a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+/*css container de la nav header*/
+.container-nav {
+  float: right;
+}
+.container-nav li {
+  display: inline-block;
+}
+.container-nav li a {
+  display: block;
+  font-size: 15px;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.container-nav li a:hover {
+  background: rgb(255, 255, 255);
+  color: #4bcaff;
+}
+/*navigation du header*/
+.nav-header {
+  list-style: none;
+}
+.nav-header li a:hover {
+  background: rgb(204, 40, 108);
+  color: #add8eb;
+  text-decoration: none;
+}
+.bottom-header {
+  padding:12% 0;
+  text-align:center;
+}
+/*main header titre 1*/
+.title-header {
+  font-family: "caviar_dreamsregular";
+  color: #fff;
+  font-size: 2.7em;
+  background: #4b565d;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto 2% auto;
+}
+/*main header titre 2*/
+.title-header2 {
+  font-family: "caviar_dreamsregular";
+  color: #fff;
+  font-size: 2.7em;
+  background: #4b565d;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
 /*partie service*/
 .background-services {
   background-color: #4bcaff;
@@ -169,9 +163,11 @@ li{
 .background-portfolio{
   padding:6% 0;
 }
+
 .container-title-portfolio{
   float:left;
 }
+/*container nav portfolio*/
 .list-nav-portfolio{
   float: right;
 }
@@ -179,7 +175,6 @@ li{
   margin: 20px -30px ;
   list-style: none;
 }
-
 #nav-portfolio li a {
   padding: 4px 15px;
   text-decoration: none;
@@ -187,26 +182,26 @@ li{
   font-size: 16px;
   font-weight: 500;
 }
-
 #nav-portfolio li {
   display: inline-block;
 }
-
 #nav-portfolio li a:hover {
   text-decoration: none;
 }
-
 #nav-portfolio li a.active {
   color: #00b3fd;
 }
 .img-portfolio {
-  display: inline-block;
+ display: inline-block;
   margin: 15px 0;
   width: 250px;
   height: 237px;
+
 }
-
-
+.center-element{
+  margin:auto;
+  text-align:center;
+}
 /*button de la partie -just-section*/
 .background-just-section {
   background: #515f67;
@@ -216,6 +211,17 @@ li{
   color: #FFF;
 	font-size:15px;
 	line-height: 1.8em;
+}
+.paragraph-section {
+  margin: 15px 0;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.follower li {
+  background: none;
+  display: inline-block;
+  margin-right: 20px;
+  list-style: none;
 }
 .button a {
   color: #29353c;
@@ -233,10 +239,11 @@ li{
   border: 2px solid #fff;
   color: #00b3fd;
 }
-
-
-
-
+#video {
+  width: 565px;
+  height: 320px;
+  overflow: hidden;
+}
 /*partie twitter*/
 .background-twitter{
   padding:5% 0;
@@ -256,21 +263,7 @@ li{
   font-size: 1.5em;
   font-family: "bitter bold" 28px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*titre de la partie follower*/
+/* partie follower*/
 .background-follow {
   width: 100%;
   background: url(../images/follow.jpg) no-repeat;
@@ -340,10 +333,6 @@ li.li-coffe a:hover {
   border: 2px solid #00b3fd;
 }
 
-
-
-
-
 /*partie testimonials*/
 .background-testimonials {
   padding: 6% 0;
@@ -355,22 +344,7 @@ li.li-coffe a:hover {
   margin-top: 20px;
   float: right;
 }
-#default-title {
-  width: 565px;
-  height: 320px;
-  overflow: hidden;
-}
-.paragraph-section {
-  margin: 15px 0;
-  font-size: 14px;
-  line-height: 1.5em;
-}
-.follower li {
-  background: none;
-  display: inline-block;
-  margin-right: 20px;
-  list-style: none;
-}
+
 .paragraph-testimonials {
   color: #555;
   font-size: 1.5em;
@@ -380,11 +354,7 @@ li.li-coffe a:hover {
   color: #4bcaff;
   font-size: 0.95em;
 }
-#video {
-  width: 565px;
-  height: 320px;
-  overflow: hidden;
-}
+
 
 
 
@@ -410,17 +380,6 @@ li.li-coffe a:hover {
   margin-bottom: 5%;
 
 }
-
-/*soulignement du titre contact*/
-.contact-btl {
-  width: 50px;
-  display: block;
-  border-bottom: 2px solid #fff;
-  position: absolute;
-  bottom: -10px;
-  margin: 0 ;
-}
-
 /*style de la zone saisie des input pour la zonne contact*/
 .listinput input[type="text"] {
   padding: 25px;
@@ -459,7 +418,6 @@ li.li-coffe a:hover {
   font-family: "Roboto", sans-serif;
   height: 200px;
 }
-
 /*style du boutton envoyer message*/
 .contact-form input[type="submit"] {
   display: inline-block;
@@ -475,36 +433,28 @@ li.li-coffe a:hover {
   margin-top: 5%;
   text-transform: uppercase;
 }
-
 /*style du survol de la souris sur le boutton message*/
-
 .contact-form input[type="submit"] :hover {
   background: #fff;
   color: #4bcaff;
 }
-
 .content {
   margin: 10px 0;
 }
-
 .input-user {
   margin-bottom: 50px;
   color: #fff;
 }
-
 .contact-form {
   margin: 0 15px;
   color: #fff;
 }
-
 .adress p {
   font-size: 0.85em;
   line-height: 2em;
   color: #fff;
 }
-
 /*icon du bas pour remonter au début de la page*/
-
 #up {
   position: fixed;
   bottom: 10px;
@@ -512,9 +462,7 @@ li.li-coffe a:hover {
   width: 40px;
   height: 40px;
 }
-
 /*css pour la barre de navigation du footer*/
-
 /*css pour la barre de navigation du footer*/
 .nav-footer {
   float: left;
@@ -522,39 +470,32 @@ li.li-coffe a:hover {
   color: #536169;
   padding: 0;
 }
-
 .nav-footer li {
   display: inline-block;
   margin: 0;
 }
-
 .nav-footer li a {
   color: #536169;
   font-size: 0.85em;
   font-weight: 500;
   text-decoration: none;
 }
-
 .nav-footer li a:hover {
   color: #fff;
 }
-
 .footer {
   background: #353f47;
   padding: 6%;
 }
-
 /*css pour le copyright*/
 .copyright {
   float: right;
 }
-
 .copyright p {
   color: #536169;
   font-size: 0.85em;
   text-decoration: none;
 }
-
 .copyright p a {
   color: #fff;
 }
@@ -578,184 +519,94 @@ li.li-coffe a:hover {
 }
 
 @media (max-width: 640px) {
-  .title-header {
-    font-size: 1.3em;
-  }
-  /*titre 2*/
   
-  .title-header2 {
-    font-size: 1.3em;
+}
+
+@media (max-width: 480px) {
+  .title-header {
+    font-size: 1.5em;
   }
-  .container-nav li a {
-    position: relative;
-    left: -30px;
-    font-size: 1.1em;
-    padding: 2px 2px;
+  /*main header titre 2*/
+  .title-header2 {
+    font-size: 1.5em;
   }
   .content-header {
     height: 50%;
   }
+  .default-title{
+    font-size: 1em;
+  }
+  .title-default{
+    margin-bottom: 5%;
+    position: relative;
+  }
+  .btl-default{
+    width: 50px;
+    display: block;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    bottom:-10px;
+    margin:0 15px;
+  }
+  .container-nav li a {
+    display: block;
+    font-size: 12px;
+    padding: 1px 2px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .background-services {
+    margin-right: 0;
+  }
+  /*portfolio,testimoials*/
+  .default1-title {
+    color: #333;
+    font-size: 1em;
+    font-family: 'caviar_dreamsregular';
+  }
+  .title-default1 {
+    position: relative;
+  }
+  .btl-default1 {
+    width:60px;
+    display: block;
+    border-bottom: 2px solid #515f67;
+    position: absolute;
+    bottom: 0px;
+  }
 
-  .list-nav-portfolio ul li a {
-    text-align: center;
+#nav-portfolio li a {
+  padding: 1px 2px;
+  text-decoration: none;
+  color: #666;
+  font-size: 10px;
+  font-weight: 500;
+  padding-right:20px;
+}
+
+
+
+
+
+  /*just default section,twitter*/
+  .default2-title {
+    color: #fff;
+    font-size: 1em;
+    font-family: 'caviar_dreamsregular';
   }
-  #nav-portfolio li a {
-    padding: 1px 1px;
-    font-size: 1.1em;
-    font-weight: 500;
-  }
-  #nav-portfolio li {
+  .title-default2 {
     position: relative;
-    left: -30px;
-  }
-  .center-elements {
-    position: relative;
-    left: -10px;
-  }
-  ul.follower {
-    text-align: center;
-    width: 80%;
-    padding: 0 auto;
-    margin: 20px;
-  }
-  /*style du boutton envoyer message*/
-  
-  .contact-form input[type="submit"] {
-    padding: 20px 130px;
-  }
+    margin-bottom: 10%;
+   }
+   .btl-default2{
+    width: 50px;
+    display: block;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    bottom:0px;
+   }
 }
 /*
-@media (max-width: 480px) {
-  .title-services {
-    font-size: 1.5em;
-  }
-  .title-portfolio{
-    font-size: 1.5em;
-  }
-  .section-just-title {
-    font-size: 1.5em;
-  }
-  .twitter-title {
-    font-size: 1.5em;
-  }
-  .title-follow {
-    font-size: 1.5em;
-  }
-  .title-testimonials {
-    font-size: 5.5em;
-  }
-  .title-contact {
-    font-size: 1em;
-  }
-  .title-header {
-    font-size: 1em;
-  }
-
-  .title-header2 {
-    font-size: 1em;
-  }
-  .container-nav li a {
-    position: relative;
-    left: -30px;
-    font-size: 0.7em;
-    padding: 2px 2px;
-  }
-  .header-content {
-    height: 50%;
-  }
- 
-
-  .list-nav-portfolio ul li a {
-    text-align: center;
-  }
-  #nav-portfolio li a {
-    padding: 4px 1px;
-    font-size: 10px;
-    font-weight: 500;
-  }
-  #nav-portfolio li {
-    position: relative;
-    left: -30px;
-  }
-  .center-elements {
-    position: relative;
-    left: -10px;
-  }
-  ul.follower {
-    text-align: center;
-    width: 80%;
-    padding: 0 auto;
-    margin: 20px;
-  }
- 
-  .contact-form input[type="submit"] {
-    padding: 20px 130px;
-  }
-
-    .contact-form input[type="submit"] {
-      padding: 20px 75px;
-    }
-}
-
 @media (max-width: 320px) {
-  .content-header {
-    height: 50%;
-  }
-  .title-services {
-    font-size: 1.5em;
-  }
-  .title-portfolio{
-    font-size: 1.5em;
-  }
-  .section-just-title {
-    font-size: 1.5em;
-  }
-  .twitter-title {
-    font-size: 1.5em;
-  }
-  .title-follow {
-    font-size: 1.5em;
-  }
-  .title-testimonials {
-    font-size: 5.5em;
-  }
-  .title-contact {
-    font-size: 1em;
-  }
-  .title-header {
-    font-size: 1em;
-  }
-
-  .title-header2 {
-    font-size: 1em;
-  }
-  .container-nav li a {
-    position: relative;
-    left: -30px;
-    font-size: 0.7em;
-    padding: 2px 2px;
-  }
-  .content-header {
-    height: 50%;
-  }
-  .list-nav-portfolio ul li a {
-    text-align: center;
-  }
-  #nav-portfolio li a {
-    padding: 4px 1px;
-    font-size: 8px;
-    font-weight: 500;
-  }
-  #nav-portfolio li {
-    position: relative;
-    left: -30px;
-  }
-  .center-elements {
-    position: relative;
-    left: -10px;
-  }
- 
-  .contact-form input[type="submit"] {
-    padding: 20px 75px;
-  }
+  
 }*/
