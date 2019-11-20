@@ -15,54 +15,25 @@ html,
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
-  font-size: 100%;
+  border:1px solid #930031;
+  font-size:100%;
 }
-/*title du site*/
-.title-site a {
-  float: left;
-  color: #fff;
-  font-size: 35px;
+.container{
+  border:1px solid #930031;
 }
-.title-site a:hover{
-  text-decoration: none;
-  color: #fff;
-}
+.row{
+  border:1px solid rgb(197, 238, 15);
 
-/*container des titres*/
-.bottom-header {
-  text-align: center;
-  padding: 12% 0;
 }
-/*titre 1*/
-.title-header {
-  font-family: "caviar_dreamsregular";
-  color: #fff;
-  font-size: 2.7em;
-  background: #4b565d;
-  padding: 10px;
-  width: 50%;
-  margin: 0 auto 2% auto;
+/*background du header*/
+.content-header {
+  width: 100%;
+  height: 800px;
+  background: url(../images/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
 }
-/*titre 2*/
-.title-header2 {
-  font-family: "caviar_dreamsregular";
-  color: #fff;
-  font-size: 2.7em;
-  background: #4b565d;
-  padding: 10px;
-  width: 70%;
-  margin: 0 auto;
-}
-.top-header {
-  background: rgba(
-    73,
-    84,
-    91,
-    0.84
-  ); /*couleur du header en rgba pour l'opacité*/
-  padding: 3% 0;
-}
-
 /*css container de la nav header*/
 .container-nav {
   float: right;
@@ -82,6 +53,7 @@ body {
   color: #4bcaff;
 }
 /*navigation du header*/
+
 .nav-header {
   list-style: none;
 }
@@ -90,112 +62,126 @@ body {
   color: #4bcaff;
   text-decoration: none;
 }
-/*background du header*/
-.content-header {
-  width: 100%;
-  height: 800px;
-  background: url(../images/banner.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-size: 100% 100%;
+/*couleur du header en rgba pour l'opacité*/
+.top-header {
+  background: rgba(
+    73,
+    84,
+    91,
+    0.84
+  ); 
+  padding: 3% 0;
 }
-
-/*partie service*/
-.services-title{
-  margin-left:10px;
+/*title du site*/
+.title-site a {
+  float: left;
   color: #fff;
-  font-size: 2em;
+  font-size: 35px;
+}
+.title-site a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.bottom-header {
+  padding:12% 0;
+  text-align:center;
+}
+/*main header titre 1*/
+.title-header {
   font-family: "caviar_dreamsregular";
+  color: #fff;
+  font-size: 2.7em;
+  background: #4b565d;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto 2% auto;
 }
-.content-services {
-  background-color: #4bcaff;
-  margin-bottom: 80px;
-}
-.Services-title {
-  margin-bottom: 52px;
-  margin-top: 82px;
-  font-size: 25px;
-  background-color: #4bcaff;
-  color: white;
-}
-.col-md-3 {
-  color: white;
-  margin-bottom: 80px;
-}
-.size-grid{
-  margin-top:50px;
-}
-.services-title {
-  color: white;
-  font-size: 2em;
+/*main header titre 2*/
+.title-header2 {
   font-family: "caviar_dreamsregular";
+  color: #fff;
+  font-size: 2.7em;
+  background: #4b565d;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
 }
-.title-services {
+/*container des titres et souignements*/
+
+ /*services,who is john do,contact*/
+.default-title{
+  color:#fff;
+  font-size: 2em;
+	font-family: 'caviar_dreamsregular';
+  margin:0 15px;
+}
+.title-default{
+  margin-bottom: 5%;
   position: relative;
 }
-.services-btl {
+.btl-default{
+	width: 50px;
+	display: block;
+	border-bottom: 2px solid #fff;
+	position: absolute;
+	bottom:-10px;
+	margin:0 15px;
+}
+/*portfolio,testimoials*/
+.default1-title {
+	color: #333;
+	font-size: 2em;
+  font-family: 'caviar_dreamsregular';
+}
+.title-default1 {
+  position: relative;
+}
+.btl-default1 {
+	width:60px;
+	display: block;
+	border-bottom: 2px solid #515f67;
+	position: absolute;
+	bottom: 0px;
+}
+/*just default section,twitter*/
+.default2-title {
+	color: #fff;
+	font-size: 2em;
+	font-family: 'caviar_dreamsregular';
+}
+.title-default2 {
+  position: relative;
+	margin-bottom: 10%;
+ }
+ .btl-default2{
   width: 50px;
-  display: block;
-  border-bottom: 2px solid white;
-  position: absolute;
-  bottom: -10px;
-  margin: 0 15px;
-
+	display: block;
+	border-bottom: 2px solid #fff;
+	position: absolute;
+	bottom:0px;
+ }
+/*partie service*/
+.background-services {
+  background-color: #4bcaff;
+  padding:6% 0;
+  color: #fff;
+}
+/*marge du haut sur la grile services*/
+.size-grid {
+  margin-top: 50px;
 }
 /*partie portfolio*/
-
-.center-elements {
-  text-align: center;
-  margin-bottom:80px;
+.background-portfolio{
+  padding:6% 0;
 }
-.p-title {
-  margin-top: 0;
-  padding-top: 0;
-  margin-left: 10px;
-  margin-bottom: 90px;
-  float: left;
-  height: 45px;
+.container-title-portfolio{
+  float:left;
 }
-
-.portfolio-title {
-  margin-left:10px;
-  color: #333;
-  font-size: 2em;
-  font-family: "caviar_dreamsregular";
-}
-
-.title-portfolio {
-  margin-left:10px;
-  position: relative;
-}
-
-.portfolio-btl {
-  width: 50px;
-  display: block;
-  border-bottom: 2px solid #666;
-  position: absolute;
-  bottom: -5px;
-  margin: 100 15px;
-  margin-left: 0;
-}
-
-.clear {
-  clear: both;
-}
-#colone {
-  max-width: 100%;
-  display: block;
-}
-
-.img-portfolio {
-  display: inline-block;
-  margin: 15px 0;
-  width: 250px;
-  height: 237px;
+.list-nav-portfolio{
+  float: right;
 }
 #nav-portfolio {
-  margin: 20px;
-  float: right;
+  margin: 20px -30px ;
   list-style: none;
 }
 
@@ -219,76 +205,24 @@ body {
   border: 2px solid #00b3fd;
   color: #00b3fd;
 }
-
-/*partie twitter*/
-.twitter {
-  color: white;
-  background: #4bcaff;
-  font-size: 2em;
-  font-family: "caviar dreams regular";
-}
-#icon {
-  float: right;
-  margin-top: 20px;
-}
-.paragraphe-twitter {
-  font-size: 72px;
-  font-family: "bitter bold" 28px;
-}
-.twitter-title {
-  color: #fff;
-  font-size: 2em;
-  font-family: "caviar_dreamsregular";
-  margin: 5 15px;
-}
-.title-twitter {
-  position: relative;
-  margin-bottom: 5%;
-  float: left;
-}
-.twitter-btl {
-  width: 50px;
-  display: block;
-  border-bottom: 2px solid #fff;
-  position: absolute;
-  bottom: -60px;
-  left: -80px;
-  margin: 5 15px;
-  margin-left: 0;
-}
-/*arrière plan de la partie just-section*/
-.just-section {
-  background: #515f67;
-  padding: 6% 0;
-  color: #fff;
+.img-portfolio {
+  display: inline-block;
+  margin: 15px 0;
+  width: 250px;
+  height: 237px;
 }
 
-.title-section-just {
-  color: #fff;
-  font-size: 2em;
-  font-family: "caviar_dreamsregular";
-  margin: 0 15px;
-  margin-left: 0;
-}
-
-/*positionnement du titre*/
-.section-just-title {
-  position: relative;
-  margin-bottom: 5%;
-}
-
-/*soulignement du titre just-section*/
-.section-btl {
-  width: 50px;
-  display: block;
-  border-bottom: 2px solid #fff;
-  position: absolute;
-  bottom: -10px;
-  margin: 0 15px;
-  margin-left: 0;
-}
 
 /*button de la partie -just-section*/
+.background-just-section {
+  background: #515f67;
+  padding: 6% 0;
+}
+.paragraph-section{
+  color: #FFF;
+	font-size:15px;
+	line-height: 1.8em;
+}
 .button a {
   color: #29353c;
   font-size: 0.85em;
@@ -300,36 +234,50 @@ body {
   transition: all 0.3s;
   border: 2px solid #29353c;
 }
-
 .button a:hover {
   background: #fff;
   border: 2px solid #fff;
   color: #00b3fd;
 }
 
+
+
+
+/*partie twitter*/
+.background-twitter{
+  padding:5% 0;
+  background: #4bcaff;
+}
+.container-title-twitter{
+  float:left;
+}
+#icon {
+  float: right;
+  color: white;
+  margin-top: 20px;
+}
+.paragraph-twitter {
+  color: white;
+  margin-top: 2%;
+  font-size: 1.5em;
+  font-family: "bitter bold" 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*titre de la partie follower*/
-.title-follow {
-  color: #fff;
-  font-size: 2em;
-  font-family: "caviar_dreamsregular";
-  margin: 0 15px;
-}
-
-.follow-title {
-  position: relative;
-  margin-bottom: 5%;
-}
-
-/*soulignement du titre follower*/
-.follow-btl {
-  width: 50px;
-  display: block;
-  border-bottom: 2px solid #fff;
-  position: absolute;
-  bottom: -10px;
-  margin: 0 15px;
-}
-.follow {
+.background-follow {
   width: 100%;
   background: url(../images/follow.jpg) no-repeat;
   background-size: cover;
@@ -338,22 +286,9 @@ body {
   padding: 6% 0;
   color: #fff;
 }
-#video {
-  width: 565px;
-  height: 320px;
-  overflow: hidden;
-}
-.paragraph-section {
-  margin: 15px 0;
-  font-size: 14px;
-  line-height: 1.5em;
-}
-.follower li {
-  background: none;
-  display: inline-block;
-  margin-right: 20px;
-  list-style: none;
-}
+
+
+
 
 /*affichage de l'icon 1 contenu dans une image de 4 icon*/
 li.li-tweeter a {
@@ -410,35 +345,37 @@ li.li-coffe a:hover {
   background: url(../images/sprite.png) no-repeat 8px -76px #4bcaff; /*déplacement dans l'image principale pour atteindre l'image souhaiter*/
   border: 2px solid #00b3fd;
 }
+
+
+
+
+
 /*partie testimonials*/
-.part-testimonials {
-  margin-bottom: 80px;
+.background-testimonials {
+  padding: 6% 0;
 }
-.testimonials-title {
-  color: #fff;
-  font-size: 2em;
-  font-family: "caviar_dreamsregular";
-  margin: 5 15px;
-}
-.h3-testimonials {
-  color: #333;
-  font-size: 2em;
-  font-family: "caviar_dreamsregular";
-}
-.title-testimonials {
-  float: left;
+.container-title-testimonials{
+  float:left;
 }
 .quote {
   margin-top: 20px;
   float: right;
 }
-.testimonials-btl {
-  width: 50px;
-  display: block;
-  border-bottom: 2px solid#000;
-  bottom: -10px;
-  left: 0px;
-  margin-left: 0;
+#video {
+  width: 565px;
+  height: 320px;
+  overflow: hidden;
+}
+.paragraph-section {
+  margin: 15px 0;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.follower li {
+  background: none;
+  display: inline-block;
+  margin-right: 20px;
+  list-style: none;
 }
 .paragraph-testimonials {
   color: #555;
@@ -449,8 +386,12 @@ li.li-coffe a:hover {
   color: #4bcaff;
   font-size: 0.95em;
 }
+
+
+
 /*css elements contact*/
-.contact {
+
+.background-contact {
   width: 100%;
   background: url(../images/footer.jpg) no-repeat;
   background-size: cover;
@@ -461,15 +402,14 @@ li.li-coffe a:hover {
 
 .title-contact {
   color: #fff;
-  font-size: 2em;
   font-family: "caviar_dreamsregular";
-  text-transform: uppercase;
-  margin: 0 15px;
+  margin: 0 ;
+  font-size: 2em;
 }
-
 .contact-title {
   position: relative;
   margin-bottom: 5%;
+  border:1px solid #935800;
 }
 
 /*soulignement du titre contact*/
@@ -479,13 +419,12 @@ li.li-coffe a:hover {
   border-bottom: 2px solid #fff;
   position: absolute;
   bottom: -10px;
-  margin: 0 15px;
+  margin: 0 ;
 }
 
 /*style de la zone saisie des input pour la zonne contact*/
 .listinput input[type="text"] {
-  padding: 20px;
-  width: 85%;
+  padding: 25px;
   color: #fff;
   font-size: 0.85em;
   border: 2px solid #fff;
@@ -496,12 +435,19 @@ li.li-coffe a:hover {
 
 /*couleur, taille et hauteur de ligne*/
 .paragraph-right-1 {
+  padding: 15px;
   line-height: 1.8em;
   font-size: 0.85em;
   color: #fff;
   margin-bottom: 8%;
 }
-
+.adress {
+  padding: 10px;
+  line-height: 1.8em;
+  font-size: 0.85em;
+  color: #fff;
+  margin-bottom: 8%;
+}
 /*style de la zone saisie de text pour message*/
 .text-area {
   padding: 20px;
@@ -533,6 +479,7 @@ li.li-coffe a:hover {
 }
 
 /*style du survol de la souris sur le boutton message*/
+
 .contact-form input[type="submit"] :hover {
   background: #fff;
   color: #4bcaff;
@@ -559,6 +506,7 @@ li.li-coffe a:hover {
 }
 
 /*icon du bas pour remonter au début de la page*/
+
 #up {
   position: fixed;
   bottom: 10px;
@@ -568,6 +516,7 @@ li.li-coffe a:hover {
 }
 
 /*css pour la barre de navigation du footer*/
+
 .nav-footer {
   float: left;
   list-style: none;
@@ -612,6 +561,7 @@ li.li-coffe a:hover {
 }
 
 /*responsive */
+
 @media (max-width: 1366px) {
 }
 
@@ -628,75 +578,184 @@ li.li-coffe a:hover {
 }
 
 @media (max-width: 640px) {
-}
-
-@media (max-width: 480px) {
   .title-header {
-    font-size: 1em;
+    font-size: 1.3em;
   }
   /*titre 2*/
+  /*
   .title-header2 {
-    font-size: 1em;
+    font-size: 1.3em;
+  }
+  .container-nav li a {
+    position: relative;
+    left: -30px;
+    font-size: 1.1em;
+    padding: 2px 2px;
+  }
+  .content-header {
+    height: 50%;
+  }
+
+  .list-nav-portfolio ul li a {
+    text-align: center;
+  }
+  #nav-portfolio li a {
+    padding: 1px 1px;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  #nav-portfolio li {
+    position: relative;
+    left: -30px;
+  }
+  .center-elements {
+    position: relative;
+    left: -10px;
+  }
+  ul.follower {
+    text-align: center;
+    width: 80%;
+    padding: 0 auto;
+    margin: 20px;
   }
   /*style du boutton envoyer message*/
+  /*
   .contact-form input[type="submit"] {
     padding: 20px 130px;
   }
-  .list-nav-portfolio ul li a{
-    text-align:center;
+}
+/*
+@media (max-width: 480px) {
+  .title-services {
+    font-size: 1.5em;
+  }
+  .title-portfolio{
+    font-size: 1.5em;
+  }
+  .section-just-title {
+    font-size: 1.5em;
+  }
+  .twitter-title {
+    font-size: 1.5em;
+  }
+  .title-follow {
+    font-size: 1.5em;
+  }
+  .title-testimonials {
+    font-size: 5.5em;
+  }
+  .title-contact {
+    font-size: 1em;
+  }
+  .title-header {
+    font-size: 1em;
+  }
+
+  .title-header2 {
+    font-size: 1em;
+  }
+  .container-nav li a {
+    position: relative;
+    left: -30px;
+    font-size: 0.7em;
+    padding: 2px 2px;
+  }
+  .header-content {
+    height: 50%;
+  }
+ 
+
+  .list-nav-portfolio ul li a {
+    text-align: center;
   }
   #nav-portfolio li a {
     padding: 4px 1px;
     font-size: 10px;
     font-weight: 500;
   }
-  #nav-portfolio li  {
-    position:relative;
-    left:-30px;
+  #nav-portfolio li {
+    position: relative;
+    left: -30px;
   }
-  .center-elements{
-    position:relative;
-    left:-10px;
+  .center-elements {
+    position: relative;
+    left: -10px;
   }
-  ul.follower{
-    text-align:center;
+  ul.follower {
+    text-align: center;
     width: 80%;
-    padding:0 auto;
-    margin:20px;
+    padding: 0 auto;
+    margin: 20px;
+  }
+ 
+  .contact-form input[type="submit"] {
+    padding: 20px 130px;
   }
 
+    .contact-form input[type="submit"] {
+      padding: 20px 75px;
+    }
 }
 
 @media (max-width: 320px) {
+  .header-content {
+    height: 50%;
+  }
+  .title-services {
+    font-size: 1.5em;
+  }
+  .title-portfolio{
+    font-size: 1.5em;
+  }
+  .section-just-title {
+    font-size: 1.5em;
+  }
+  .twitter-title {
+    font-size: 1.5em;
+  }
+  .title-follow {
+    font-size: 1.5em;
+  }
+  .title-testimonials {
+    font-size: 5.5em;
+  }
+  .title-contact {
+    font-size: 1em;
+  }
   .title-header {
     font-size: 1em;
   }
-  /*titre 2*/
+
   .title-header2 {
     font-size: 1em;
   }
-  /*style du boutton envoyer message*/
-  .contact-form input[type="submit"] {
-    padding: 20px 75px;
+  .container-nav li a {
+    position: relative;
+    left: -30px;
+    font-size: 0.7em;
+    padding: 2px 2px;
   }
- 
-  .list-nav-portfolio ul li a{
-    
-    text-align:center;
-
+  .content-header {
+    height: 50%;
+  }
+  .list-nav-portfolio ul li a {
+    text-align: center;
   }
   #nav-portfolio li a {
     padding: 4px 1px;
     font-size: 8px;
     font-weight: 500;
   }
-  #nav-portfolio li  {
-    position:relative;
-    left:-30px;
+  #nav-portfolio li {
+    position: relative;
+    left: -30px;
   }
-  .center-elements{
-    position:relative;
-    left:-10px;
+  .center-elements {
+    position: relative;
+    left: -10px;
   }
-}
-/*isa*/
+ 
+  .contact-form input[type="submit"] {
+    padding: 20px 75px;
+  }
+}*/
