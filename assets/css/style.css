@@ -15,16 +15,9 @@ html,
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
-  border:1px solid #930031;
   font-size:100%;
 }
-.container{
-  border:1px solid #930031;
-}
-.row{
-  border:1px solid rgb(197, 238, 15);
 
-}
 /*background du header*/
 .content-header {
   width: 100%;
@@ -35,32 +28,34 @@ body {
   background-size: 100% 100%;
 }
 /*css container de la nav header*/
-.container-nav {
-  float: right;
+nav{
+  background-color: #434e55 ;
+  height: 150px;
+  padding:40px 375px;  
+
+
 }
-.container-nav li {
-  display: inline-block;
+li a{
+  text-decoration:none;
+  color: white;    
 }
-.container-nav li a {
-  display: block;
-  font-size: 15px;
-  padding: 10px 20px;
-  color: #fff;
-  font-weight: 600;
+ul{
+  display:flex;
+  list-style:none;
+  justify-content:flex-end ;   
 }
-.container-nav li a:hover {
-  background: #fff;
-  color: #4bcaff;
+li{
+  margin:11px 19px;
+  font-family: "segoe UI bold "14px;
 }
 /*navigation du header*/
 
 .nav-header {
   list-style: none;
 }
-.nav-header li a:hover {
-  background: #fff;
+
+#E{
   color: #4bcaff;
-  text-decoration: none;
 }
 /*couleur du header en rgba pour l'opacité*/
 .top-header {
@@ -163,7 +158,7 @@ body {
 /*partie service*/
 .background-services {
   background-color: #4bcaff;
-  padding:6% 0;
+  padding:6%;
   color: #fff;
 }
 /*marge du haut sur la grile services*/
@@ -202,7 +197,6 @@ body {
 }
 
 #nav-portfolio li a.active {
-  border: 2px solid #00b3fd;
   color: #00b3fd;
 }
 .img-portfolio {
@@ -361,7 +355,7 @@ li.li-coffe a:hover {
   margin-top: 20px;
   float: right;
 }
-#video {
+#default-title {
   width: 565px;
   height: 320px;
   overflow: hidden;
@@ -386,6 +380,11 @@ li.li-coffe a:hover {
   color: #4bcaff;
   font-size: 0.95em;
 }
+#video {
+  width: 565px;
+  height: 320px;
+  overflow: hidden;
+}
 
 
 
@@ -409,7 +408,7 @@ li.li-coffe a:hover {
 .contact-title {
   position: relative;
   margin-bottom: 5%;
-  border:1px solid #935800;
+
 }
 
 /*soulignement du titre contact*/
@@ -455,7 +454,6 @@ li.li-coffe a:hover {
   width: 100%;
   background: none;
   border: 2px solid #fff;
-  outline: none;
   color: #fff;
   font-size: 0.85em;
   font-family: "Roboto", sans-serif;
@@ -517,6 +515,7 @@ li.li-coffe a:hover {
 
 /*css pour la barre de navigation du footer*/
 
+/*css pour la barre de navigation du footer*/
 .nav-footer {
   float: left;
   list-style: none;
@@ -560,6 +559,7 @@ li.li-coffe a:hover {
   color: #fff;
 }
 
+
 /*responsive */
 
 @media (max-width: 1366px) {
@@ -582,7 +582,7 @@ li.li-coffe a:hover {
     font-size: 1.3em;
   }
   /*titre 2*/
-  /*
+  
   .title-header2 {
     font-size: 1.3em;
   }
@@ -619,7 +619,7 @@ li.li-coffe a:hover {
     margin: 20px;
   }
   /*style du boutton envoyer message*/
-  /*
+  
   .contact-form input[type="submit"] {
     padding: 20px 130px;
   }
@@ -698,7 +698,7 @@ li.li-coffe a:hover {
 }
 
 @media (max-width: 320px) {
-  .header-content {
+  .content-header {
     height: 50%;
   }
   .title-services {
