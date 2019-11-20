@@ -37,6 +37,14 @@ body {
 	margin:0 15px;
 }
 /*portfolio,testimoials*/
+
+.container-portfolio{
+  float:left;
+}
+.center-element{
+  padding:auto;
+  text-align:center;
+}
 .default1-title {
 	color: #333;
 	font-size: 2em;
@@ -217,12 +225,7 @@ body {
   font-size: 14px;
   line-height: 1.5em;
 }
-.follower li {
-  background: none;
-  display: inline-block;
-  margin-right: 20px;
-  list-style: none;
-}
+
 .button a {
   color: #29353c;
   font-size: 0.85em;
@@ -273,7 +276,12 @@ body {
   padding: 6% 0;
   color: #fff;
 }
-
+.follower li {
+  background: none;
+  display: inline-block;
+  margin-right: 20px;
+  list-style: none;
+}
 
 
 
@@ -536,75 +544,32 @@ li.li-coffe a:hover {
   .default-title{
     font-size: 1em;
   }
-  .title-default{
-    margin-bottom: 5%;
-    position: relative;
-  }
-  .btl-default{
-    width: 50px;
-    display: block;
-    border-bottom: 2px solid #fff;
-    position: absolute;
-    bottom:-10px;
-    margin:0 15px;
-  }
   .container-nav li a {
-    display: block;
     font-size: 12px;
     padding: 1px 2px;
-    color: #fff;
-    font-weight: 600;
   }
-  .background-services {
-    margin-right: 0;
+  /*just default section,twitter*/
+  .default2-title {
+    font-size: 1em;
   }
   /*portfolio,testimoials*/
   .default1-title {
-    color: #333;
     font-size: 1em;
-    font-family: 'caviar_dreamsregular';
   }
-  .title-default1 {
-    position: relative;
-  }
-  .btl-default1 {
-    width:60px;
-    display: block;
-    border-bottom: 2px solid #515f67;
-    position: absolute;
-    bottom: 0px;
-  }
-
-#nav-portfolio li a {
-  padding: 1px 2px;
-  text-decoration: none;
-  color: #666;
-  font-size: 10px;
-  font-weight: 500;
-  padding-right:20px;
-}
-
-
-
-
-
-  /*just default section,twitter*/
-  .default2-title {
-    color: #fff;
-    font-size: 1em;
-    font-family: 'caviar_dreamsregular';
+  #nav-portfolio li a {
+    padding: 1px 2px;
+    padding-right:20px;
+    font-size: 0.5em;
   }
   .title-default2 {
-    position: relative;
     margin-bottom: 10%;
    }
-   .btl-default2{
-    width: 50px;
-    display: block;
-    border-bottom: 2px solid #fff;
-    position: absolute;
-    bottom:0px;
-   }
+   .contact-form input[type="submit"] {
+    font-size: 1em;
+    padding: 20px 130px;
+  }
+ 
+
 }
 /*
 @media (max-width: 320px) {
